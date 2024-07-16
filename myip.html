@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles/fonts.css">
+</head>
+    <body>
+    <!-- 
+        |====================================================================================|
+        |  HEADER
+        |====================================================================================|
+    -->
+        <div class="header container mx-auto py-5 flex items-center justify-between">
+            <div class="logotype">
+                <img src="assets/images/logo.png" alt="">
+            </div>
+            <div class="header-menu text-xl">
+                <ul class="flex flex-wrap items-center justify-center text-gray-900 text-black">
+                    <li>
+                        <a href="#" class="me-4 hover:underline md:me-6">Прокси чекер</a>
+                    </li>
+                    <li>
+                        <a href="#" class="me-4 hover:underline md:me-6">Бесплатные прокси</a>
+                    </li>
+                    <li>
+                        <a href="#" class="me-4 hover:underline md:me-6">Мой IP</a>
+                    </li>
+                    <li>
+                        <a href="#" class="me-4 hover:underline md:me-6">Моя анонимность</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <!-- 
+        |====================================================================================|
+        |  SECTION 1
+        |====================================================================================|
+    -->
+    
+    
+    <div class="container mx-auto mt-20 ">
+        <div class="ip-block bg-blue-800 p-10 text-white montserrat-750 flex justify-between rounded-lg">
+            <div class="ip">
+                <h1 class="text-2xl">Ваш IP:</h1>
+                <h1  class="text-4xl hover:opacity-50 cursor-pointer" id="ip">192.000.00.00 <i class="fa-regular fa-copy"></i></h1>
+            </div>
+           
+            <div class="ip-country">
+                <h1 class="text-2xl">Местоположение:</h1>
+                <div class="flex justify-between items-center">
+                    <h1  class="text-4xl"> 🇷🇺</h1>
+                    <h1 class="text-4xl ml-2"> Russia, Moskow</h1>
+                </div>
+            </div>
+
+            <div class="ip-button">
+                <button type="button" class="bg-gradient-to-r from-blue-600 to-sky-600 p-5 px-10 text-white text-xl m-1" style="border-radius: 25px;">Сменить IP</button>
+            </div>     
+        </div>
+
+        <div class="ip-info flex justify-between gap-20 mt-20">
+            <div class="info w-full">
+                <div class="flex justify-between montserrat-750 text-gray-500">
+                    <h1 class="text-2xl m-2">Операционная система:</h1>
+                    <h1 class="text-2xl m-2">Microsoft Windows 10.0</h1>
+                </div>
+                <div class="flex justify-between montserrat-750 text-gray-500">
+                    <h1 class="text-2xl m-2">Ваш браузер:</h1>
+                    <h1 class="text-2xl m-2">Firefox 115.0</h1>
+                </div>
+                <div class="flex justify-between montserrat-750 text-gray-500">
+                    <h1 class="text-2xl m-2">Ваш провайдер:</h1>
+                    <h1 class="text-2xl m-2">CRELCOM LLC</h1>
+                </div>
+                
+            </div>
+           
+        </div>
+            
+    </div>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles/fonts.css">
+</head>
+    <body>
+    <!-- 
+        |====================================================================================|
+        |  HEADER
+        |====================================================================================|
+    -->
+        <div class="header container mx-auto py-5 flex items-center justify-between">
+            <div class="logotype">
+                <img src="assets/images/logo.png" alt="">
+            </div>
+            <div class="header-menu text-xl">
+                <ul class="flex flex-wrap items-center justify-center text-gray-900 text-black">
+                    <li>
+                        <a href="#" class="me-4 hover:underline md:me-6">Прокси чекер</a>
+                    </li>
+                    <li>
+                        <a href="#" class="me-4 hover:underline md:me-6">Бесплатные прокси</a>
+                    </li>
+                    <li>
+                        <a href="#" class="me-4 hover:underline md:me-6">Мой IP</a>
+                    </li>
+                    <li>
+                        <a href="#" class="me-4 hover:underline md:me-6">Моя анонимность</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <!-- 
+        |====================================================================================|
+        |  SECTION 1
+        |====================================================================================|
+    -->
+    
+    
+    <div class="container mx-auto mt-20">
+        <div class="ip-block bg-blue-800 p-10 text-white montserrat-750 flex justify-between rounded-lg items-center">
+            <div class="ip">
+                <h1 class="text-5xl">Ваш IP:</h1>
+                <h1  class="text-2xl">185.64.7.242</h1>
+            </div>
+           
+            <div class="anon-percent">
+                <h1 class="text-4xl">Результат проверки</h1>
+                <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 mt-2">
+                    <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 25%"> 25%</div>
+                </div>
+            </div>
+
+            <div class="anon-result">
+                <h1 class="text-3xl">Оценка</h1>
+                <span class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300"><i class="fa-solid fa-eye"></i> Плохая анонимность</span>
+            </div>
+           
+        </div>
+
+        <div class="anon-result-blocks mt-20 flex justify-between gap-10">
+           <div class="anon-card bg-blue-800 p-10 text-white montserrat-750 rounded-lg flex justify-between items-center cursor-pointer">
+                <h1 class="text-3xl">Что делать?</h1>
+                <i class="fa-solid fa-arrow-down fa-2xl mr-3 ml-3 hover:animate-pulse"></i>
+           </div>
+            <div class="anon-card bg-blue-800 p-10 text-white montserrat-750 rounded-lg flex justify-between items-center cursor-pointer">
+                <h1 class="text-3xl">Какие меры предпринять?</h1>
+                <i class="fa-solid fa-arrow-down fa-2xl mr-3 ml-3 hover:animate-pulse"></i>
+            </div>
+            <div class="anon-card bg-blue-800 p-10 text-white montserrat-750 rounded-lg flex justify-between items-center cursor-pointer">
+                <h1 class="text-3xl">Зачем проверять анонимность?</h1>
+                <i class="fa-solid fa-arrow-down fa-2xl mr-3 ml-3 hover:animate-pulse"></i>
+            </div>
+        </div>
+        
+    </div>
+        
+        
+    </body>
+</html>
